@@ -1,12 +1,13 @@
 import GameSavingLoader from '../app';
+import GameSaving from '../gamesaving' 
 
-test('testing game loader functionality', () => {
-  expect(GameSavingLoader.load()).resolves.toEqual({
-    id: 9,
-    created: 1546300800,
-    userInfo:
-      {
-        id: 1, name: 'Hitman', level: 10, points: 2000,
-      },
+const char = new GameSaving();
+
+test('testing game saver functionality', (done) => {
+  const value = GameSavingLoader.load().then((saving) => saving);
+
+  value.then((result) => {
+    expect(result).toEqual(char);
+    done();
   });
 });
