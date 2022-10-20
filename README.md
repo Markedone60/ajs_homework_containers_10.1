@@ -1,3 +1,3 @@
 AJS 10.1
 
-[![Build status](https://ci.appveyor.com/api/projects/status/gb7x8u2g1vb2v5gv?svg=true)](https://ci.appveyor.com/project/Markedone60/ajs-homework-containers-8)
+[![Build status](https://ci.appveyor.com/api/projects/status/o8cxvbjkr7h20gp0?svg=true)](https://ci.appveyor.com/project/Markedone60/ajs-homework-promises-async-10-1)
